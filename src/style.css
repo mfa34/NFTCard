@@ -1,0 +1,244 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --softblue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --mainbg: hsl(217, 54%, 11%);
+  --cardbg: hsl(216, 50%, 16%);
+  --line: hsl(216, 50%, 16%);
+  --White: hsl(0, 0%, 100%);
+}
+body {
+  font-size: 18px;
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: hsl(217, 54%, 11%);
+}
+.cont {
+  background-color: #15263f;
+  border-radius: 3%;
+  width: 328px;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 0px 16px 9px #000000;
+  box-shadow: 0px 0px 16px 9px #000000;
+}
+.pht {
+  background-color: #15263f;
+  width: 277px;
+  height: 277px;
+  border-radius: 4%;
+  padding: 24px;
+}
+.pht img:hover {
+  filter: hue-rotate(40deg);
+  transition: 0.5s ease-in-out;
+}
+
+.pht img {
+  width: 100%;
+  border-radius: 4%;
+}
+.textbox {
+  padding: 24px;
+}
+.textbox img {
+  width: 16px;
+  height: px;
+}
+#info {
+  text-align: start;
+  color: #667b97;
+  padding-bottom: 20px;
+}
+.info-2 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 10px;
+  float: left;
+  border: 1px solid white;
+}
+#heading-1 {
+  color: var(--White);
+  font-size: 1.3em;
+  padding-bottom: 20px;
+}
+#heading-1:hover {
+  color: #19e6e4;
+  transition: 0.4s ease-in-out;
+}
+
+.eth #eth-svg {
+  padding-right: 10px;
+  transform: translate(5px, 3px);
+  width: 13px;
+  height: 20px;
+}
+.eth {
+  font-family: "Red Hat Display", sans-serif;
+  padding-right: 60px;
+  font-size: 1em;
+  color: #19e6e4;
+}
+.day {
+  color: var(--softblue);
+}
+.day #clock-svg {
+  width: 20px;
+  height: 20px;
+  transform: translate(-5px, 4px);
+}
+.info-2 {
+  padding-left: 24px;
+  transform: translate(0, -10px);
+  text-align: justify;
+}
+.line {
+  color: #25374f;
+  width: 277px;
+  transform: translate(0, -10px);
+}
+.demo {
+  color: var(--White);
+  display: inline-block;
+  margin-top: 10px;
+}
+.demo:hover {
+  color: #19e6e4;
+  transition: 0.5s ease-in-out;
+}
+#color {
+  color: #667b97;
+}
